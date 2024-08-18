@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>  
+<head>
+<title>תפריט פעולות</title>
+<script src="lib/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+<script src="homeScript.js" type="text/javascript" ></script>
+        
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h4>ברוכים הבאים</h4>
+
+	<input style="align-content:center" class="center-black"  id="fileUploader" type="file" accept="/image/png" />
+	<br/><br/>
+	<select id="typeAdv">
+		<option value="1">לפי זמן</option>
+		<option value="2">לפי צפיות</option>
+	</select>
+	<br/><br/>
+	<select id="placeSelect">
+		<option value="1">למעלה</option>
+		<option value="2">בשמאל</option>
+	<option value="3">בימין</option>
+	<option value="4">למטה</option>
+	</select>
+	<br/><br/>
+	<p>הכנס מספר דקות או צפיות רצוי</p>
+	
+	<input id="num" type="number" value="דקות או צפיות"/>
+	<br/><br/>
+	<input id="btnAdd" type="button" value="רכש פרסומת"/>
+	           
+</body>
+</html>
